@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'weatherproject.urls'
+ROOT_URLCONF = 'weatherproject.weatherproject.urls'
 
 TEMPLATES = [
     {
