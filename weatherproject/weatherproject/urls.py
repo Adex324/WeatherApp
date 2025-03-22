@@ -20,5 +20,5 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('',include('weatherapp.urls')),
+    path('',include('weatherproject.weatherapp.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
