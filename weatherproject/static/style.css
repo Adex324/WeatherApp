@@ -65,13 +65,13 @@ input {
     border: 1px solid var(--blue-1);
     border-radius: 5px;
     background-color: transparent;
-    color: var(--blue-2);
+    color: white;
     outline: none;
 }
 
 input::placeholder {
     color: white;
-    
+
 }
 
 button {
