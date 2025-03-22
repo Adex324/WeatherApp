@@ -70,7 +70,8 @@ input {
 }
 
 input::placeholder {
-    color: var(--blue-2);
+    color: white;
+    
 }
 
 button {
